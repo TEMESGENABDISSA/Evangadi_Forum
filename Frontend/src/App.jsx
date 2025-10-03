@@ -1,6 +1,7 @@
 
 import './App.css'
-import Footer from './pages/Footer/Footer'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
   
