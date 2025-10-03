@@ -40,7 +40,9 @@
   line-height: 1.5;
   color: #ffea;
 }
-
+.contact{
+margin-right: 5px;
+}
 .footer-link:hover {
   color: #fff;
 }
