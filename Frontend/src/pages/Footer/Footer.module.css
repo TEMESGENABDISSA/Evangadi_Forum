@@ -1,0 +1,83 @@
+/* Base Footer Styles */
+.evangadi-footer {
+  background-color: #23262a;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+/* Container to center content and manage layout */
+.footer-container {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+/* Logo Styling */
+.footer-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 15px;
+}
+/* Styles for each column */
+.footer-column {
+  flex: 1 1 30%;
+}
+
+/* Column Headings */
+.footer-heading {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Links and Contact Items */
+.footer-link,
+.contact-item {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ffea;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+/* Social Icons Styling */
+.social-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-right: 15px;
+  font-size: 1.2rem;
+
+  width: 30px;
+  height: 30px;
+
+  transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: #ff6600;
+  border-radius: 50%;
+  color: #fff;
+}
+
+/* ---------------------------------- */
+/* RESPONSIVENESS (Mobile/Tablet) */
+/* ---------------------------------- */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo {
+    width: 110px;
+  }
+}
